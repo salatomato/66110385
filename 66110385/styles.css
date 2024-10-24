@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('kuromi.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+header {
+    background: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 250px;
+    border-radius: 200px;
+    border: 5px solid rgb(56, 39, 82);
+}
+
+nav {
+    background: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    padding: 40px;
+}
+
+.proflie-container {
+    display: flex;
+    align-items: center;
+}
+
+.proflie-info {
+    margin-left: 20px;
+    max-width: 600px;
+}
+ footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+} 
